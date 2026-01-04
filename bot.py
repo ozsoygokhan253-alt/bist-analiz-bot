@@ -5,7 +5,8 @@ import pandas as pd
 import ta
 from textblob import TextBlob
 
-TOKEN = "8296680093:AAF7ZUfY40zrpWg4y8N1-_DymbPMQ6pCg-g"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
 def haber_duygu(haberler):
     skorlar = []
