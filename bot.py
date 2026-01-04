@@ -5,7 +5,7 @@ import pandas as pd
 import ta
 from textblob import TextBlob
 
-TOKEN = "8296680093:AAG8x8AuwQyi9Juou4H9c9X9QjwaQlilo1E"
+TOKEN = "8296680093:AAF7ZUfY40zrpWg4y8N1-_DymbPMQ6pCg-g"
 
 def haber_duygu(haberler):
     skorlar = []
